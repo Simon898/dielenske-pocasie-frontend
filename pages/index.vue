@@ -77,14 +77,6 @@
         </v-card-actions>
       </v-card>
     </v-col>
-    <BaseInput
-      v-model="email"
-      @blur="email = 'blurrr@its.cold'"
-      label="Email"
-      type="email"
-      class="thicc"
-    />
-    <pre>{{ email }}</pre>
   </v-row>
 </template>
 
