@@ -6,7 +6,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "start": "node index.js"
+    "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
     "nuxt": "3.0.0-rc.8"
